@@ -1,5 +1,9 @@
 # Data wrangling with Stock market's data
 
+Author: Sathish Manthani
+Course: Data preparation
+Bellevue University
+
 ## Data Wrangling - Stock market's data analysis using APIs
 
 I work in finance industry and I’m interested in analyzing financial data of all kinds. That’s why I chose this topic for my Term project. I had to search and read through a lot of APIs before using this one.
