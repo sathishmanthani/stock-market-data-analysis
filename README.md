@@ -1,24 +1,24 @@
-# stock-market-data-analysis
-Data wrangling with Stock market's data
+# Data wrangling with Stock market's data
 
-Data Wrangling - Stock market's data analysis using APIs
+## Data Wrangling - Stock market's data analysis using APIs
 
 I work in finance industry and I’m interested in analyzing financial data of all kinds. That’s why I chose this topic for my Term project. I had to search and read through a lot of APIs before using this one.
-Objective
+
+## Objective
 I want to fetch NASDAQ’s stock markets data for a few tickers via API and clean up the data to a usable format. 
 When it comes to predictive analytics using machine learning, everybody thinks of coming up with an ML algorithm to predict stock prices and make money!!! Well its complicated. A lot of other factors apart from the historical numbers affect stock prices, so it’s a vast subject. I will stick to extracting dataset from the API and formatting it to usable data in this project.
-APIs used
+### APIs used
 I used two APIs for my project. 
 First one fetches the list of stock tickers (e.g. AAPL, FB etc.,)
 Second one gets the stock data in real-time for the given list of tickers.
-Tickers API
-API Link:
-https://pkgstore.datahub.io/core/nasdaq-listings/nasdaq-listed-symbols_csv/data/595a1f263719c09a8a0b4a64f17112c6/nasdaq-listed-symbols_csv.csv
-Sample output:
+
+Sample output of Tickers API:
+```python
 Symbol,Company Name
 AAIT,iShares MSCI All Country Asia Information Technology Index Fund
 AAL,"American Airlines Group, Inc."
 AAME,Atlantic American Corporation
+```
 
 I’m only interested in fetching the Symbol and pass it on to the next API for its stock data.
 Stocks data API
@@ -56,4 +56,3 @@ Steps
 8.	Converted the object types to date type and other formatting of columns
 9.	Displayed the final dataset
 
-Thank you!
