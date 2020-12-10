@@ -5,7 +5,7 @@
 I work in finance industry and I’m interested in analyzing financial data of all kinds. That’s why I chose this topic for my Term project. I had to search and read through a lot of APIs before using this one.
 
 ## Objective
-I want to fetch NASDAQ’s stock markets data for a few tickers via API and clean up the data to a usable format. 
+To fetch NASDAQ’s stock markets data for a few tickers via API and clean up the data to a usable format. 
 When it comes to predictive analytics using machine learning, everybody thinks of coming up with an ML algorithm to predict stock prices and make money!!! Well its complicated. A lot of other factors apart from the historical numbers affect stock prices, so it’s a vast subject. I will stick to extracting dataset from the API and formatting it to usable data in this project.
 ### APIs used
 I used two APIs for my project. 
@@ -49,6 +49,7 @@ Example call: https://financialmodelingprep.com/api/v3/quote/AAPL
 
 ```
 API documentation: https://financialmodelingprep.com/developer/docs/
+
 This API is well built, has clear documentation and no subscription or private key is needed to fetch data. I’m going to use it outside of this project as well for machine learning modeling for other use cases that I have in my mind.
 
 Steps
