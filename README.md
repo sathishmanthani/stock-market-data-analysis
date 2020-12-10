@@ -1,7 +1,9 @@
 # Data wrangling with Stock market's data
 
 Author: Sathish Manthani
+
 Course: Data preparation
+
 Bellevue University
 
 ## Data Wrangling - Stock market's data analysis using APIs
