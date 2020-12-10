@@ -24,6 +24,8 @@ I’m only interested in fetching the Symbol and pass it on to the next API for 
 Stocks data API
 API link: https://financialmodelingprep.com/api/v3/quote/
 Example call: https://financialmodelingprep.com/api/v3/quote/AAPL
+
+```
 [ 
     {
       "symbol" : "AAPL",
@@ -42,6 +44,8 @@ Example call: https://financialmodelingprep.com/api/v3/quote/AAPL
       "exhange" : "NASDAQ"
     } 
 ]
+
+```
 API documentation: https://financialmodelingprep.com/developer/docs/
 This API is well built, has clear documentation and no subscription or private key is needed to fetch data. I’m going to use it outside of this project as well for machine learning modeling for other use cases that I have in my mind.
 
