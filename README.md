@@ -22,7 +22,9 @@ AAME,Atlantic American Corporation
 
 I’m only interested in fetching the Symbol and pass it on to the next API for its stock data.
 Stocks data API
+
 API link: https://financialmodelingprep.com/api/v3/quote/
+
 Example call: https://financialmodelingprep.com/api/v3/quote/AAPL
 
 ```
